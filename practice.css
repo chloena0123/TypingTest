@@ -1,0 +1,191 @@
+
+.background {
+    height:  97.6%;
+    background-color:#D6C7E3;
+    text-align: center;
+    border: 10px solid #A295AD;
+    border-radius: 10px;
+    /*position: absolute;*/
+    /* padding-top:0.30px; */
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 1.6vw;
+}
+
+@font-face {
+    font-family: 'InfinitySans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlexSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+#now {
+    font-family: InfinitySans;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 30px;
+    line-height: 300%;
+}
+
+#logo {
+    position: relative;
+    top: 10%;
+}
+
+
+
+#heading {
+    color: #29282B;
+    font-family: InfinitySans; 
+    font-size: 20px;
+    display: inline-block;
+}
+
+#heart {
+    font-size: 25px;
+    display: inline-block;
+    color: #7435B5;
+}
+
+#textArea {
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    width: 54%;
+    height: 25%;
+    border: 1px solid #29282B;
+    background-color: #F2F2F2;
+    overflow: auto;
+    border-radius: 4px;
+    align-content: center;
+}
+
+.words {
+    display: none;
+}
+
+span {
+    font-family: PlexSans;
+    font-size: 22px;
+    padding-left: 2.5px;
+    padding-top: 5px;
+}
+
+.startMenu {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 20%;
+
+}
+
+.startButton {
+    background-color: mediumpurple;
+    width: 100%;
+    color: white;
+    font-family: InfinitySans;
+    font-size: 16px;
+}
+
+.menuOptions {
+    display: none;
+    background-color: #f1f1f1;
+    align-content: center;
+    font-family: InfinitySans;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.menuOptions a {
+    color: black;
+    font-size: 16px;
+    padding: 8px;
+    /* removes hyperlink underline*/
+    text-decoration: none;
+    display: block;
+}
+
+/* display options on hover */
+.startMenu:hover  .menuOptions { display: block;}
+.menuOptions a:hover {background-color: #ddd;}
+
+
+
+#keyboard {
+    position: relative;
+    top: -14%;
+}
+img {
+    height: 80%;
+}
+
+.box {
+    display: none;
+    border: none;
+    background-color: #f1f1f1;
+    left: 10%;
+    width: 100%;
+    height: 25%;
+    outline:none;
+}
+
+input{
+    font-family: PlexSans;
+    font-size: 22px;
+}
+
+#timerSlot {
+    position: absolute;
+    height: 3%;
+    width: 10%;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    font-family: InfinitySans;
+    font-size: 20px;
+    left: 23%;
+    top: 9%;
+}
+
+#timer {
+    position: absolute;
+    left: 30%;
+    top: 1%;
+}
+
+.right{
+    color: green;
+}
+.wrong{
+    color: red;
+}
+
+#main {
+    display: none;
+    position: absolute;
+    align-content: center;
+    background-color: #8a5faf;
+    border: 3px solid #9059c0;
+    border-radius: 5px;
+    height: 2.5%;
+    top: 45%;
+    left: 23%;
+    
+}
+
+#back {
+    font-family: InfinitySans;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
